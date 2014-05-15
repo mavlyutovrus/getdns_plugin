@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <!-- Target Application this extension can install into,
+        with minimum and maximum supported versions. -->
+    <em:targetApplication>
+      <Description>
+        <!-- thunderbird -->
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>24.1.1</em:minVersion>
+        <em:maxVersion>24.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:id>getdns@exascale.info</em:id>
+    <em:name>GetDNS host checker</em:name>
+    <em:version>1.0</em:version>
+    <em:description></em:description>
+    <em:creator></em:creator>
+    <em:homepageURL></em:homepageURL>
+    <em:iconURL></em:iconURL>
+    <em:optionsURL></em:optionsURL>
+    <em:unpack>true</em:unpack>
+  </Description>
+</RDF>

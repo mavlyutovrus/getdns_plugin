@@ -1,0 +1,1 @@
+overlay chrome://messenger/content/mailWindowOverlay.xul content/main.xul

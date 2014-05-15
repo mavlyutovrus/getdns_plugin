@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="style.css"?>
+<overlay id="getDNSOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <row id="expandedfromRow">
+	<label id="verified_label" class="red" value="" onclick=""/>
+    </row>
+    <script type="application/javascript" src="jquery-1.11.0.min.js"/> 
+    <script type="application/javascript" src="getdns.js"/>
+</overlay>
